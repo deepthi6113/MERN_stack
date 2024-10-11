@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head><style>
+    label{
+        display: inline-block;
+            width: 150px; 
+            margin-bottom: 5px;
+            
+    }
+    input[type="text"], select {
+           
+            margin-bottom: 5px;
+        }
+    .g-col-4{
+        color: gray;
+    }
+        
+</style>
+
+<body >
+    <<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/images/angular.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <center>
+        <h1>Registration form</h1>
+    </center>
+    <center>
+        <p>
+            Of course,all submitted information is kept in the strictest confidence.<br>
+            You always retain control of your information with D.W. Simpson & Co.<br>
+            <b>Our Services are always at no cost to you</b>
+        </p>
+    </center>
+    <br>
+   
+
+    <label><b>Name:</b></label>
+    <input type="text" required>
+    <br>
+
+    <label><b>Address:</b></Address></label>
+    <input type="text">
+    <br>
+
+    <label><b>City: </b></label>&nbsp;
+    <input type="text">
+
+    <label><b>State/Province: </b></label>
+    <input type="text">
+
+    <br>
+    <label><b>Country: </b></label>
+    <input type="text">
+
+    <br>
+    <label><b>Phone(H): </b></label>
+    <input type="text">
+
+    <label><b>Fax: </b></label>
+    <input type="text">
+
+    <br>
+    <label><b>Phone(W): </b></label>
+    <input type="text">
+    <br>
+
+    <label><b>Email: </b></label>
+    <input type="text">
+    <br>
+
+    <label><b>Company Name: </b></label>
+    <input type="text"><label>(optional)</label>
+    <br>
+
+    <label for="region"><b>Desired Region:</b></label>
+    <select id="region" name="region">
+        <option value="other" selected>Other</option>
+        <option value="north">Andhra Pradesh</option>
+        <option value="south">Karnataka</option>
+        <option value="east">TamilNadu</option>
+        <option value="west">West Bengal</option>
+    </select><label><b>Other: </b></label>
+    <input type="text">
+    <br>
+
+    <label><b>Professional designations earned:</b></label><br>
+
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>College student</label>
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>Acturial student</label>
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>ACAS</label>&nbsp;
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> FCAS</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>ASA</label> 
+   
+    <br>
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>FSA</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>EA</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> CFA</label> 
+   
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> MBA</label> 
+
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> MAAA</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> FIA</label> 
+
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> FCIA</label> 
+    
+
+    <br>
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>FIAA</label> 
+   
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label>Financial Engineer</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> M.S.</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> Ph.D</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> Data Mining</label> 
+    
+    <input type="checkbox" value="College Student" name="Professional designations earned">
+    <label> Quant</label> 
+    
+
+
+
+    <br>
+    <label><b>Other designations:</b></label>
+    <input type="text">
+
+    
+</body>
+
+</html>
